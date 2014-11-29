@@ -1,6 +1,6 @@
 # lemonkey
 
-Trying out Jekyll and Github pages.
+Trying out Jekyll and Github pages, originally forked from [Jekyll-Now](https://github.com/barryclark/jekyll-now).
 
 ## Credits
 
