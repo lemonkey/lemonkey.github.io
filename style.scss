@@ -160,9 +160,15 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
   margin-right: 15px;
+  line-height: 0;
+  font-size: 0;
+  .inner {
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    border: 3px solid #fff;
+    display: inline-block;
+    border-radius: 40px;
+  }
 
   @include mobile {
     float: none;
@@ -171,7 +177,10 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+
   }
 }
 
